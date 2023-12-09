@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv ="Content-Type" content="text/html;charset=UTF-8">
+    <title> Learning System </title>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <meta name="description" content="making website using html and css only.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="test-yourself.css">
+   </head>
+</head>
+<body>
+
+    <div class="top-header">
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="logo.jpeg" alt="" class="logo-img">
+                    <h1>Learning <span>System</span></h1>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="video.html">Videos</a></li>
+                    <li><a href="tutors.html">Tutors</a></li>
+                    <li><a href="test-yourself.html">Test Yourself</a></li>
+                    <li><a href="contactus.html" class="btn">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="hero-section">
+          <div class="hero-box">
+              <div class="left-box">
+                  <p class="ready">Give it a go!</p>
+                  <h1><span>Test-Yourself</span> with these simple questions.</h1>
+                  <p class="left-para">And improve your understanding.</p> 
+               </div>
+               <div class="right-box">
+                  <img src="t.gif" alt="header images" class="right-img">
+
+               </div>
+          </div>
+      </section>
+  <section>
+    <h2>Question 1</h2>
+    <br>
+    <p>What does HTML stand for?</p>
+    <br>
+    <ol>
+      <li><label><input type="radio" name="q1" value="a"> Hyper Text Markup Language</label></li>
+      <li><label><input type="radio" name="q1" value="b"> Hyperlink and Text Markup Language</label></li>
+      <li><label><input type="radio" name="q1" value="c"> Home Tool Markup Language</label></li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Question 2</h2>
+    <br>
+    <p>What does CSS stand for?</p>
+    <br>
+    <ol>
+      <li><label><input type="radio" name="q2" value="a"> Counter Style Sheets</label></li>
+      <li><label><input type="radio" name="q2" value="b"> Cascading Style Sheets</label></li>
+      <li><label><input type="radio" name="q2" value="c"> Computer Style Sheets</label></li>
+    </ol>
+  </section>
+  
+  <section>
+    <h2>Question 3</h2>
+    <br>
+    <p> What will be the value of the following Python expression?</p>
+    <br>
+    <p>4 + 3 % 5</p>
+    <br>
+    <ol>
+      <li><label><input type="radio" name="q3" value="a"> 7</label></li>
+      <li><label><input type="radio" name="q3" value="b"> 2</label></li>
+      <li><label><input type="radio" name="q3" value="c"> 4</label></li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Question 4</h2>
+    <br>
+    <p>Which of the following is the correct output for the following JavaScript code:</p>
+    <br>
+    <p>var x=5,y=1</p> 
+    <p>var obj ={ x:10} </p> 
+    <p>with(obj)</p>
+    <p>{</p>  
+    <p>   alert(y)</p>  
+    <p>}</p>  
+    </code>
+    <br>
+    <ol>
+      <li><label><input type="radio" name="q4" value="a">1</label></li>
+      <li><label><input type="radio" name="q4" value="b"> Error</label></li>
+      <li><label><input type="radio" name="q4" value="c"> 10</label></li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Question 5</h2>
+    <br>
+    <p> _____ is used to find and fix bugs in the Java programs.</p>
+    <br>
+    <ol>
+      <li><label><input type="radio" name="q5" value="a"> JRE</label></li>
+      <li><label><input type="radio" name="q5" value="b"> JDK</label></li>
+      <li><label><input type="radio" name="q5" value="c"> JDB</label></li>
+    </ol>
+  </section>
+
+
+  <button onclick="submitAnswers()">Submit Answers</button>
+  <br>
+
+  <script>
+    function submitAnswers() {
+      // Your validation and scoring logic here
+      alert('Answers submitted!');
+    }
+  </script>
+
+</body>
+</html>
