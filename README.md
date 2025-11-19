@@ -94,9 +94,6 @@ Learning-System/
 │
 └── README.md
 
-
-(You may update folder names if you reorganize assets.)
-
 🛠 Technologies Used
 
 HTML5 — Page structure
